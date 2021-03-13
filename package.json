@@ -10,7 +10,8 @@
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
-    "test": "jest"
+    "test": "jest",
+    "commit": "cz"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
@@ -42,6 +43,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-nuxt": "^2.0.0",
@@ -58,5 +60,10 @@
     "stylelint-config-standard": "^20.0.0",
     "ts-jest": "^26.4.4",
     "vue-jest": "^3.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
