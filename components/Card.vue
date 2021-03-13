@@ -1,10 +1,20 @@
 <template>
-  <div class="rounded border shadow w-auto">
+  <div
+    class="rounded-lg border shadow w-auto"
+    :class="{
+      ' grid grid-cols-3': horizontal,
+    }"
+  >
     <figure>
       <img :src="cover" :alt="description" />
     </figure>
 
-    <div class="p-4">
+    <div
+      class="p-4"
+      :class="{
+        ' grid-span-2 my-auto': horizontal,
+      }"
+    >
       <div v-if="title" class="text-black text-opacity-50">{{ title }}</div>
       <div v-if="description" class="text-sm">{{ description }}</div>
     </div>
@@ -27,6 +37,10 @@ export default defineComponent({
     description: {
       type: String,
       default: '',
+    },
+    horizontal: {
+      type: Boolean,
+      default: false,
     },
   },
   setup() {},
