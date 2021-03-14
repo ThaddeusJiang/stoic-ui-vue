@@ -1,5 +1,5 @@
 export default {
-  title: 'Card',
+  title: 'Components',
 }
 
 export const Card = () =>

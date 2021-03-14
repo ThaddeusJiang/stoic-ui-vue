@@ -1,5 +1,5 @@
 export default {
-  title: 'SearchBox',
+  title: 'Components',
 }
 
 export const SearchBox = () => `<search-box />`

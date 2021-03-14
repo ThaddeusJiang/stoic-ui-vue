@@ -1,5 +1,5 @@
 export default {
-  title: 'Footer',
+  title: 'Components',
 }
 
 export const Footer = () => `<s-footer />`

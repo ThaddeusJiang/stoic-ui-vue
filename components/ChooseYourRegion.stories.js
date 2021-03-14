@@ -1,5 +1,5 @@
 export default {
-  title: 'Pages/ChooseYourRegion',
+  title: 'Pages',
 }
 
 export const ChooseYourRegion = () =>
