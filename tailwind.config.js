@@ -3,6 +3,7 @@ const plugin = require('windicss/plugin')
 
 module.exports = {
   plugins: [
+    require('windicss/plugin/forms'),
     plugin(function ({ addBase }) {
       addBase({
         summary: {
