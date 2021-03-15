@@ -18,7 +18,7 @@ module.exports = {
         'details[open] > summary > span.g-summary-arrow': {
           transform: 'rotate(180deg)',
         },
-        th: {
+        'th, dt': {
           fontWeight: theme('font.bold'),
           padding: `${theme('spacing.2')} ${theme('spacing.2')}`,
           backgroundColor: theme('colors.gray.100'),
@@ -26,7 +26,7 @@ module.exports = {
             backgroundColor: theme('colors.gray.200'),
           },
         },
-        td: {
+        'td, dd': {
           padding: `${theme('spacing.2')} ${theme('spacing.2')}`,
         },
       })
