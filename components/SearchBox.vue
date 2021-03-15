@@ -1,13 +1,13 @@
 <template>
   <!-- focus-within doesn't work -->
   <div class="flex border rounded-lg">
-    <select class="felx-initial m-2 outline-none">
+    <select class="m-2 border-0 outline-none felx-initial">
       <option value="All">All</option>
       <option value="Coffee">Coffee</option>
       <option value="Whisky">Whisky</option>
       <option value="XXXXXXXXXXXXXXXXXX">XXXXXXXXXXXXXXXXXX</option>
     </select>
-    <input type="text" class="flex-auto border-l border-r outline-none px-2" />
+    <input type="text" class="flex-auto px-2 border-t-0 border-b-0 border-gray-100 outline-none" />
     <button class="flex-none w-10 h-10 p-2 hover:bg-gray-100 focus:outline-none">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
