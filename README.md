@@ -1,5 +1,22 @@
 # stoic-web
 
+> WIP
+
+Goal: This project can act as useful guides.
+
+Features:
+
+* Popular Frontend technology, like Vite, Windi CSS.
+* Japanese minimalism style, like MUJI.com.
+* Created by a stoic developer.
+
+## UI Components
+https://stoic-web-ui.netlify.app/
+
+## Demo
+
+https://stoic-web.netlify.app/
+
 ## Build Setup
 
 ```bash
@@ -15,6 +32,10 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# storybook
+$ yarn storybook
+
+# storybook build
+$ yarn storybook:build
+```
