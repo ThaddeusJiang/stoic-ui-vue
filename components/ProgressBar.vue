@@ -1,8 +1,13 @@
 <template>
   <div class="relative pt-1">
     <div class="flex items-center justify-between mb-2">
-      <div v-if="title">
-        <span class="inline-block px-2 py-1 text-xs font-semibold text-pink-600 uppercase bg-pink-200 rounded-full">
+      <div>
+        <span
+          class="inline-block rounded-full"
+          :class="{
+            'px-2 py-1 text-xs font-semibold text-pink-600 uppercase bg-pink-200': title,
+          }"
+        >
           {{ title }}
         </span>
       </div>
