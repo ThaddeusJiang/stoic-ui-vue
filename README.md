@@ -39,3 +39,32 @@ $ yarn storybook
 # storybook build
 $ yarn storybook:build
 ```
+
+
+TODO:
+
+Components
+
+- [x] Alert
+- [ ] Button
+- [ ] Image
+- [ ] Input
+- [ ] Label
+- [ ] Menu
+- [x] Navbar
+- [ ] Pagination
+- [x] Progressbar
+- [ ] Typography
+- [ ] Dropdown
+- [ ] Modal
+- [x] Popover
+- [ ] Tab
+- [x] Tooltip
+
+Example Pages
+
+- [ ] Landing
+- [ ] Profile
+- [ ] Login
+- [ ] Dashboard
+- [ ] Settings
