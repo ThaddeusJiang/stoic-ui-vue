@@ -68,3 +68,8 @@ Example Pages
 - [ ] Login
 - [ ] Dashboard
 - [ ] Settings
+
+Goals:
+
+- dev https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/images
+- provide https://bulma.io/ class
