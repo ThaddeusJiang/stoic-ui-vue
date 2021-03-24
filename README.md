@@ -59,17 +59,13 @@ Components
 - [ ] Pagination
 - [x] Progressbar
 - [ ] Typography
-- [ ] Dropdown
-- [ ] Modal
-- [x] Popover
+- [ ] Modal: bulma 的 Modal 很完美
 - [ ] Tab
-- [x] Tooltip
+- [x] Tooltip / Popover / Dropdown
 - [ ] Breadcrumb
 - [ ] Card
-- [ ] Dropdown
 - [ ] Menu
 - [ ] Message
-- [ ] Modal
 - [ ] Navbar
 - [ ] Pagination
 - [ ] Panel
