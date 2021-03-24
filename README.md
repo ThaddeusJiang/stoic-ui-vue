@@ -43,6 +43,10 @@ $ yarn storybook:build
 
 TODO:
 
+- https://tailwindcss.com
+- https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/images
+- https://bulma.io/documentation/components/
+
 Components
 
 - [x] Alert
@@ -60,6 +64,17 @@ Components
 - [x] Popover
 - [ ] Tab
 - [x] Tooltip
+- [ ] Breadcrumb
+- [ ] Card
+- [ ] Dropdown
+- [ ] Menu
+- [ ] Message
+- [ ] Modal
+- [ ] Navbar
+- [ ] Pagination
+- [ ] Panel
+- [ ] Tabs
+
 
 Example Pages
 
@@ -68,8 +83,3 @@ Example Pages
 - [ ] Login
 - [ ] Dashboard
 - [ ] Settings
-
-Goals:
-
-- dev https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/images
-- provide https://bulma.io/ class
