@@ -6,6 +6,20 @@ module.exports = {
     require('windicss/plugin/forms'),
     plugin(function ({ addBase, theme }) {
       addBase({
+        'h1, h2, h3': {
+          fontWeight: theme('fontWeight.semibold'),
+          lineHeight: theme('lineHeight.tight'),
+        },
+        h1: {
+          fontSize: theme('fontSize.5xl'),
+        },
+        h2: {
+          fontSize: theme('fontSize.3xl'),
+        },
+        h3: {
+          fontSize: theme('fontSize.xl'),
+        },
+
         summary: {
           display: 'block',
         },

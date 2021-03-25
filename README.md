@@ -54,9 +54,7 @@ Components
 - [ ] Image
 - [ ] Input
 - [ ] Label
-- [ ] Menu
 - [x] Navbar
-- [ ] Pagination
 - [x] Progressbar
 - [ ] Typography
 - [ ] Modal: bulma 的 Modal 很完美
@@ -65,9 +63,9 @@ Components
 - [x] Card 实现了一个简易版，增强 [](#card)
 - [ ] Menu
 - [ ] Message
-- [ ] Navbar
 - [ ] Pagination
 - [ ] Panel
+- [x] Title 仅提供 h1 h2 h3, see: https://tailwindcss-typography.netlify.app/
 - [x] Tabs
 
 
