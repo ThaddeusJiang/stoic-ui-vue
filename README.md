@@ -60,16 +60,15 @@ Components
 - [x] Progressbar
 - [ ] Typography
 - [ ] Modal: bulma 的 Modal 很完美
-- [ ] Tab
 - [x] Tooltip / Popover / Dropdown
-- [ ] Breadcrumb
-- [ ] Card
+- [x] Breadcrumb
+- [x] Card 实现了一个简易版，增强 [](#card)
 - [ ] Menu
 - [ ] Message
 - [ ] Navbar
 - [ ] Pagination
 - [ ] Panel
-- [ ] Tabs
+- [x] Tabs
 
 
 Example Pages
@@ -79,3 +78,16 @@ Example Pages
 - [ ] Login
 - [ ] Dashboard
 - [ ] Settings
+
+TODO:
+## Card
+
+- card-header
+  - card-header-title
+  - card-header-icon
+- card-image
+- card-content
+- card-footer
+  - card-footer-item
+
+https://bulma.io/documentation/components/card/
