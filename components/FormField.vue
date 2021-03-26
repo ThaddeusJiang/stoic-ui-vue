@@ -5,6 +5,7 @@
       class="mt-2 w-max"
       :class="{
         'border border-red-600': isError,
+        ' rounded': isRounded,
       }"
     >
       <slot />
@@ -33,6 +34,10 @@ export default defineComponent({
       default: '',
     },
     isError: {
+      type: Boolean,
+      default: false,
+    },
+    isRounded: {
       type: Boolean,
       default: false,
     },
