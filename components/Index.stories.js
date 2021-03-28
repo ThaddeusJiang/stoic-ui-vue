@@ -8,7 +8,11 @@ export const Title = () => `
   <div>
     <h1>Title 1</h1>
     <h2>Title 2</h2>
-    <h3>Title 3</h3>tto
+    <h3>Title 3</h3>
+
+    <article>
+      This is document.
+    </article>
   </div>
 `
 
@@ -35,5 +39,11 @@ export const Button = () => `
     <button class="button is-success">Success</button>
     <button class="button is-warning">Warning</button>
     <button class="button is-danger">Danger</button>
+  </div>
+`
+
+export const Box = () => `
+  <div >
+    <box >I'm in a box.</box>
   </div>
 `

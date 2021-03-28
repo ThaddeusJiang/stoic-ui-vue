@@ -60,7 +60,7 @@ module.exports = {
       })
     }),
     plugin(function ({ addComponents, theme }) {
-      const buttons = {
+      const button = {
         '.button': {
           backgroundColor: theme('colors.white'),
           borderWidth: '1px',
@@ -126,7 +126,7 @@ module.exports = {
         },
       }
 
-      addComponents(buttons)
+      addComponents(button)
     }),
   ],
 }
