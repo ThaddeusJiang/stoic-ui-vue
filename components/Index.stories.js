@@ -47,3 +47,14 @@ export const Box = () => `
     <box >I'm in a box.</box>
   </div>
 `
+
+export const Tag = () => `
+  <div class="even: px-4">
+    <tag text="primary" class="is-primary" />
+    <tag text="link" class="is-link" />
+    <tag text="info" class="is-info" />
+    <tag text="success" class="is-success" />
+    <tag text="warning" class="is-warning" />
+    <tag text="danger" class="is-danger" />
+  </div>
+`

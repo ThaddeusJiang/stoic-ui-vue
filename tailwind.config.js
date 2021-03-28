@@ -100,34 +100,40 @@ module.exports = {
             borderColor: 'transparent',
             color: theme('colors.blue.600'),
           },
-
-          '&.is-primary': {
-            backgroundColor: theme('colors.primary.600'),
-            color: theme('colors.white'),
-          },
-          '&.is-link': {
-            backgroundColor: theme('colors.link.600'),
-            color: theme('colors.white'),
-          },
-          '&.is-info': {
-            backgroundColor: theme('colors.info.600'),
-            color: theme('colors.white'),
-          },
-          '&.is-success': {
-            backgroundColor: theme('colors.success.600'),
-            color: theme('colors.white'),
-          },
-          '&.is-warning': {
-            backgroundColor: theme('colors.warning.600'),
-          },
-          '&.is-danger': {
-            backgroundColor: theme('colors.danger.600'),
-            color: theme('colors.white'),
-          },
         },
       }
-
       addComponents(button)
+    }),
+
+    plugin(function ({ addComponents, theme }) {
+      const colors = {
+        '.is-primary': {
+          backgroundColor: theme('colors.primary.600'),
+          color: theme('colors.white'),
+        },
+
+        '.is-link': {
+          backgroundColor: theme('colors.link.600'),
+          color: theme('colors.white'),
+        },
+        '.is-info': {
+          backgroundColor: theme('colors.info.600'),
+          color: theme('colors.white'),
+        },
+        '.is-success': {
+          backgroundColor: theme('colors.success.600'),
+          color: theme('colors.white'),
+        },
+        '.is-warning': {
+          backgroundColor: theme('colors.warning.600'),
+          color: theme('colors.black'),
+        },
+        '.is-danger': {
+          backgroundColor: theme('colors.danger.600'),
+          color: theme('colors.white'),
+        },
+      }
+      addComponents(colors)
     }),
   ],
 }

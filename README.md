@@ -52,21 +52,26 @@ Components
 - [x] Alert
 - [x] Button
 - [ ] Image
-- [ ] Input
 - [ ] Label
 - [x] Navbar
 - [x] Progressbar
-- [ ] Typography
 - [ ] Modal: bulma 的 Modal 很完美
-- [x] Tooltip / Popover / Dropdown
 - [x] Breadcrumb
 - [x] Card 实现了一个简易版，增强 [](#card)
 - [ ] Menu
-- [ ] Message
 - [ ] Pagination
 - [ ] Panel
 - [x] Title 仅提供 h1 h2 h3, see: https://tailwindcss-typography.netlify.app/
 - [x] Tabs
+
+Windi CSS Plugins
+
+- [x] Input: WindiCSS plugin
+- [x] Typography: WindiCSS plugin
+
+OSS
+
+- [x] Tooltip / Popover / Dropdown
 
 
 Example Pages
