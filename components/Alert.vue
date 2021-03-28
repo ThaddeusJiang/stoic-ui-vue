@@ -1,8 +1,16 @@
 <template>
-  <div v-if="isOpenRef" class="relative px-6 py-4 mb-4 text-white bg-pink-500 border-0 rounded">
-    <span class="inline-block mr-5 text-xl align-middle">
-      <i class="fas fa-bell"></i>
-    </span>
+  <div
+    v-if="isOpenRef"
+    class="relative px-6 py-4 mb-4 text-white border-0 rounded"
+    :class="{
+      'bg-primary-600': variant === 'primary',
+      'bg-link-600': variant === 'link',
+      'bg-info-600': variant === 'info',
+      'bg-success-600': variant === 'success',
+      'bg-warning-600': variant === 'warning',
+      'bg-danger-600': variant === 'danger',
+    }"
+  >
     <span class="inline-block mr-8 align-middle">
       <b class="capitalize">{{ title }}</b> <span>{{ message }}</span>
     </span>
@@ -31,6 +39,10 @@ export default defineComponent({
     message: {
       type: String,
       required: true,
+    },
+    variant: {
+      type: String,
+      default: 'info',
     },
   },
   setup(props) {
