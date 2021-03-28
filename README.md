@@ -50,7 +50,7 @@ TODO:
 Components
 
 - [x] Alert
-- [ ] Button
+- [x] Button
 - [ ] Image
 - [ ] Input
 - [ ] Label
