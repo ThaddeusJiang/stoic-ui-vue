@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: [
     require('windicss/plugin/forms'),
+    require('windicss/plugin/typography'),
     plugin(function ({ addBase, theme }) {
       addBase({
         'h1, h2, h3': {
