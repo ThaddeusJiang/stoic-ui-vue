@@ -1,5 +1,20 @@
 # stoic-web
 
+2021 年为了赚钱离开了 teamLab，但是非常感谢 teamLab 的同事们对我的认可。
+我非常喜欢 `Stoic` 这个评价，所以创建了这个项目。
+
+
+https://twitter.com/ThaddeusJiang/status/1368857591967866883?s=20
+
+## Mission
+
+* 让喜欢不同技术的开发者可以自由地使用自己喜欢的技术。
+
+## 目标
+
+TODO:
+
+
 > WIP
 
 Goal: This project can act as useful guides.
